@@ -2,7 +2,7 @@ library(shiny)
 library(maps)
 library(mapproj)
 source("helpers.R")
-countries <<- readRDS("D:/STUDY/DevelopingDataProducts/ASSIGNMENT/myShiny/data/counties.rds")
+countries <<- readRDS("./data/counties.rds")
 aa1 <<- "Your last name is "
 shinyServer(
   function(input, output){
